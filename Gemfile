@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
@@ -60,3 +60,30 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Gemfile haml-rails for html to haml
+gem 'haml-rails', '~> 2.0'
+
+# Use jquery as the JavaScript library
+gem 'jquery-ui-rails'
+gem 'rails-asset-jqueryui'
+
+# Use Bootstrap
+gem 'bootstrap-sass', '3.3.7'
+
+# Icons fonts
+gem 'font-awesome-sass' #, '~> 4.6.2'
+gem 'font-awesome-rails', '~> 4.6'
+
+# Turn on debugging tools in development mode
+group :development, :test do
+# Call 'byebug' anywhere in the code to stop execution and  get a debugger console
+  gem 'byebug', platform: :mri
+  # Better displays errors
+  gem "better_errors"
+  gem "binding_of_caller"
+end
+
+# Pagination
+# gem 'will_paginate'
+gem 'kaminari'
