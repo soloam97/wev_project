@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   get 'main/help'
   get 'main/contacts'
   get 'main/about'
-  root 'main#index'
+  root 'main#index', as: 'home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
