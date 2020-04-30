@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe5c3edc-1d7c-4370-9661-c1577e9f028e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/acdc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/beatles.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/blacksabbath.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/deeppurple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/doors.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/gunsnroses.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/kiss.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/ledzeppelin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/metallica.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/nirvana.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/pinkfloyd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/queen.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pictures/rolling_stones.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main/about.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/about.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_footer.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_footer.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200331180446_create_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20200331180446_create_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +38,20 @@
     <option name="groupingKeys">
       <option value="directory" />
     </option>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +78,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -58,7 +90,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -228,30 +260,85 @@
       <workItem from="1585765802352" duration="194000" />
       <workItem from="1585776960812" duration="1494000" />
       <workItem from="1585818545382" duration="1542000" />
-      <workItem from="1586798235354" duration="1778000" />
+      <workItem from="1586798235354" duration="2139000" />
+      <workItem from="1586803185189" duration="1892000" />
+      <workItem from="1586805095256" duration="4000" />
+      <workItem from="1586805314622" duration="625000" />
+      <workItem from="1586887706173" duration="4010000" />
+      <workItem from="1587027869243" duration="2160000" />
+      <workItem from="1587562887355" duration="9000" />
+      <workItem from="1587565063730" duration="3848000" />
+      <workItem from="1587587384104" duration="8946000" />
+      <workItem from="1587597758195" duration="550000" />
+      <workItem from="1587625248932" duration="5773000" />
+      <workItem from="1587657834579" duration="4898000" />
+      <workItem from="1587672190364" duration="3703000" />
+      <workItem from="1587681139636" duration="261000" />
+      <workItem from="1587752079556" duration="233000" />
+      <workItem from="1587754783953" duration="1671000" />
+      <workItem from="1587770975191" duration="81000" />
+      <workItem from="1587771057420" duration="190000" />
+      <workItem from="1588086499114" duration="178000" />
+      <workItem from="1588161149032" duration="480000" />
+      <workItem from="1588166045303" duration="16880000" />
+      <workItem from="1588238874383" duration="4913000" />
+      <workItem from="1588244648157" duration="2969000" />
     </task>
+    <task id="LOCAL-00001" summary="Third Commit: DB, page transitions">
+      <created>1586800387413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586800387413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fourth Commit: Validation">
+      <created>1587597020935</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587597020935</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Third Commit: DB, page transitions" />
+    <MESSAGE value="Fourth Commit: Validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fourth Commit: Validation" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585334326164">
+    <state x="555" y="214" width="800" height="677" key="#Inspections" timestamp="1588188268289">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585334326164" />
-    <state x="1151" y="357" width="671" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586799100441">
+    <state x="555" y="214" width="800" height="677" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1588188268289" />
+    <state x="1035" y="214" width="800" height="831" key="#Intentions" timestamp="1588189643379">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1151" y="357" width="671" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1586799100441" />
+    <state x="1035" y="214" width="800" height="831" key="#Intentions/0.27.1920.1053@0.27.1920.1053" timestamp="1588189643379" />
+    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587598107991">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587598107991" />
+    <state x="1151" y="357" width="671" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587674496247">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1151" y="357" width="671" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1587674496247" />
     <state x="1176" y="390" width="518" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1585165312725">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1176" y="390" width="518" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585165312725" />
-    <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585765994596">
+    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2" timestamp="1587597020634">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1585765994596" />
+    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1587597020634" />
+    <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587771244406">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1587771244406" />
     <state width="914" height="270" key="GridCell.Tab.0.bottom" timestamp="1585401451789">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -268,26 +355,34 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="914" height="270" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585401451789" />
-    <state x="898" y="187" key="SettingsEditor" timestamp="1586799757711">
+    <state x="710" y="226" width="490" height="652" key="RollbackChangesDialog" timestamp="1587594450616">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="898" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1586799757711" />
+    <state x="710" y="226" width="490" height="652" key="RollbackChangesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587594450616" />
+    <state x="898" y="187" key="SettingsEditor" timestamp="1588241765435">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="898" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1588241765435" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585398671193">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1585398671193" />
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587597046505">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1587597046505" />
     <state x="1088" y="119" width="704" height="867" key="find.popup" timestamp="1585401760622">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1088" y="119" width="704" height="867" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1585401760622" />
-    <state x="1104" y="253" width="672" height="677" key="run.anything.popup" timestamp="1585401439169">
+    <state x="1104" y="253" width="672" height="677" key="run.anything.popup" timestamp="1588174273687">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1104" y="253" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1585401439169" />
-    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1585598318744">
+    <state x="1104" y="253" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588174273687" />
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1588239968359">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1585598318744" />
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588239968359" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_project@routes__web_project.rcov" NAME="routes: web_project Coverage Results" MODIFIED="1585401443139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="web_project" />
