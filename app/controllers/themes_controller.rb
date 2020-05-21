@@ -62,13 +62,13 @@ class ThemesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_theme
-      @theme = Theme.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_theme
+    @theme = Theme.find(params[:id])
+  end
 
-    # Only allow a list of trusted parameters through.
-    def theme_params
-      params.require(:theme).permit(:name, :qty_items)
-    end
+  # Only allow a list of trusted parameters through.
+  def theme_params
+    params.require(:theme).permit(:name, :qty_items)
+  end
 end

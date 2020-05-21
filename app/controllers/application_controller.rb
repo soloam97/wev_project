@@ -1,5 +1,4 @@
 class ApplicationController < ActionController::Base
-  def current_user
-    User.find.first
-  end
+  include SessionsHelper
+  # to see in views and controllers
 end

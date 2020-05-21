@@ -1,5 +1,38 @@
 class User < ApplicationRecord
-  has_many :values, dependent: :destroy  # todo: validations
-  validates :name, presence: true, length: {maximum: 20}
-  validates :email, presence: true, format: {with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i}
+  has_many :values, dependent: :destroy
+  # TODO: validations
+
+  before_save { self.email = email.downcase }
+  # before_save { email.downcase! } # alternative
+  before_create :create_remember_token
+
+  MAX_LENGTH = 50
+  validates :name, presence: true, uniqueness: true, length: { maximum: MAX_LENGTH }
+  # validates :email, presence: true, uniqueness: true, length: { maximum: 50 }
+
+
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
+  validates :email, presence: true,
+            uniqueness: { case_sensitive: false },
+            format: { with: VALID_EMAIL_REGEX }
+
+  has_secure_password
+
+  validates :password, length: { minimum: 6 }
+
+  def User.new_remember_token
+    SecureRandom.urlsafe_base64
+  end
+
+  def User.encrypt(token)
+    Digest::SHA1.hexdigest(token.to_s)
+  end
+
+
+  private
+
+
+  def create_remember_token
+    self.remember_token = User.encrypt(User.new_remember_token)
+  end
 end
