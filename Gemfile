@@ -115,3 +115,7 @@ gem 'jquery-rails', '~> 4.3.5'
 # Code style checking for RSpec files. A plugin for the RuboCop
 #   code style enforcing & linting tool.
 gem 'rubocop-rspec', '~> 1.39'
+
+group :production do
+  gem 'rails_12factor'
+end
