@@ -1,19 +1,23 @@
 class WorkController < ApplicationController
+  require 'json'
+  include WorkImage
+  include WorkHelper
+
   def index
     @images_count = Image.all.count
     @selected_theme = "Select theme to leave your answer"
-    @selected_theme = t(".def_select_theme")
+    @selected_theme = t('.def_select_theme')
     @selected_image_name = 'Изображение'
     @values_qty = Value.all.count
     @current_locale = I18n.locale
+
     session[:selected_theme_id] = @selected_theme #to display nothing
   end
 
   def choose_theme
     @themes = Theme.all.pluck(:name)
-    respond_to do |format|
-      format.js
-    end
+    logger.info "In WorkController#choose_theme @themes = #{@themes}"
+    respond_to :js
   end
 
   # @note : first display_theme and show first image from image array
@@ -26,7 +30,7 @@ class WorkController < ApplicationController
       theme = "Select theme to leave your answer"
       theme_id = 1
       values_qty = Value.all.count.round
-      data = {index: 0, name: 'изображение', values_qty: values_qty,
+      data = {index: 0, name: 'Изображение', values_qty: values_qty,
               file: '1_1.jpg', image_id: 1,
               current_user_id: current_user_id, user_valued: false,
               common_ave_value: 0, value: 0}

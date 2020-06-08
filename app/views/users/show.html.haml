@@ -5,10 +5,10 @@
         %h1
           = gravatar_for @user # Применение пакета Gravatar
           = @user.name
-  %p
-    %b= t('.email')
-    = @user.email
-  = link_to t('.work'), work_path, class: "btn btn-lg btn-primary"
+%p
+  %b= t('.email')
+  = @user.email
+= link_to t('.work'), work_path, class: "btn btn-lg btn-primary"
 
 %p#notice= notice
 

@@ -119,3 +119,7 @@ gem 'rubocop-rspec', '~> 1.39'
 group :production do
   gem 'rails_12factor'
 end
+
+# # A set of common locale data and translations to internationalize
+# #   and/or localize your Rails applications.
+# gem 'rails-i18n'

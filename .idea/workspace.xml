@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe5c3edc-1d7c-4370-9661-c1577e9f028e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/work/_images.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/i18n.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/Russia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/Russia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/api_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/api_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/work_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/work_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_header.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_header.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/work/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/work/index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +330,11 @@
       <workItem from="1589991218372" duration="1543000" />
       <workItem from="1589999051954" duration="6038000" />
       <workItem from="1590044971426" duration="3334000" />
-      <workItem from="1590052299843" duration="2170000" />
+      <workItem from="1590052299843" duration="3759000" />
+      <workItem from="1590650106526" duration="617000" />
+      <workItem from="1591119766778" duration="7500000" />
+      <workItem from="1591614519259" duration="11734000" />
+      <workItem from="1591634576856" duration="1115000" />
     </task>
     <task id="LOCAL-00001" summary="Third Commit: DB, page transitions">
       <created>1586800387413</created>
@@ -370,18 +386,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="sixth Commit: JS + aut" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="214" width="800" height="677" key="#Inspections" timestamp="1589982293845">
+    <state x="555" y="214" width="800" height="677" key="#Inspections" timestamp="1591627843782">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="214" width="800" height="677" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1589982293845" />
+    <state x="555" y="214" width="800" height="677" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1591627843782" />
     <state x="1035" y="198" width="800" height="882" key="#Intentions" timestamp="1588684916321">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1035" y="198" width="800" height="882" key="#Intentions/0.27.1920.1053@0.27.1920.1053" timestamp="1588684916321" />
-    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587598107991">
+    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591635249394">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587598107991" />
+    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591635249394" />
     <state x="1151" y="357" width="671" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589536109340">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -402,22 +418,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1590000417039" />
-    <state width="914" height="270" key="GridCell.Tab.0.bottom" timestamp="1589982486136">
+    <state width="904" height="269" key="GridCell.Tab.0.bottom" timestamp="1591635015561">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1589982486136" />
-    <state width="914" height="270" key="GridCell.Tab.0.center" timestamp="1589982486135">
+    <state width="904" height="269" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1591635015561" />
+    <state width="904" height="269" key="GridCell.Tab.0.center" timestamp="1591635015561">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1589982486135" />
-    <state width="914" height="270" key="GridCell.Tab.0.left" timestamp="1589982486135">
+    <state width="904" height="269" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1591635015561" />
+    <state width="904" height="269" key="GridCell.Tab.0.left" timestamp="1591635015561">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1589982486135" />
-    <state width="914" height="270" key="GridCell.Tab.0.right" timestamp="1589982486136">
+    <state width="904" height="269" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1591635015561" />
+    <state width="904" height="269" key="GridCell.Tab.0.right" timestamp="1591635015561">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1589982486136" />
+    <state width="904" height="269" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1591635015561" />
     <state width="1874" height="345" key="GridCell.Tab.1.bottom" timestamp="1588706232436">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -474,10 +490,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="680" y="300" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1589575278850" />
-    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1590049122079">
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1590055457902">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1590049122079" />
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1590055457902" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -494,7 +510,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/web_project@rails_server.rcov" NAME="rails server Coverage Results" MODIFIED="1588704978896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="web_project" />
+    <SUITE FILE_PATH="coverage/web_project@rails_server.rcov" NAME="rails server Coverage Results" MODIFIED="1591634892250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="web_project" />
     <SUITE FILE_PATH="coverage/web_project@routes__web_project.rcov" NAME="routes: web_project Coverage Results" MODIFIED="1588701481612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="web_project" />
   </component>
 </project>
