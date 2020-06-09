@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe5c3edc-1d7c-4370-9661-c1577e9f028e" name="Default Changelist" comment="" />
+    <list default="true" id="fe5c3edc-1d7c-4370-9661-c1577e9f028e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +27,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="web_project_production" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -317,7 +326,8 @@
       <workItem from="1591119766778" duration="7500000" />
       <workItem from="1591614519259" duration="11734000" />
       <workItem from="1591634576856" duration="9026000" />
-      <workItem from="1591687131705" duration="1512000" />
+      <workItem from="1591687131705" duration="2956000" />
+      <workItem from="1591724154364" duration="1737000" />
     </task>
     <task id="LOCAL-00001" summary="Third Commit: DB, page transitions">
       <created>1586800387413</created>
@@ -368,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591691972325</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="8 Commit: heroku">
+      <created>1591692197428</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591692197428</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +398,8 @@
     <MESSAGE value="Fifth Commit: Content + JS" />
     <MESSAGE value="sixth Commit: JS + aut" />
     <MESSAGE value="7 Commit: heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 Commit: heroku" />
+    <MESSAGE value="8 Commit: heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 Commit: heroku" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="214" width="800" height="677" key="#Inspections" timestamp="1591641839337">
@@ -392,14 +410,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1035" y="198" width="800" height="882" key="#Intentions/0.27.1920.1053@0.27.1920.1053" timestamp="1588684916321" />
-    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591635249394">
+    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591692901851">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591635249394" />
-    <state x="1151" y="357" width="671" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589536109340">
+    <state x="820" y="227" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591692901851" />
+    <state x="1151" y="357" width="671" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591725905603">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1151" y="357" width="671" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1589536109340" />
+    <state x="1151" y="357" width="671" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1591725905603" />
     <state x="1176" y="390" width="518" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1585165312725">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -408,10 +426,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="876" y="385" width="940" height="695" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1588704829041" />
-    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2" timestamp="1591691972067">
+    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2" timestamp="1591692197313">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1591691972067" />
+    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1591692197313" />
     <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590000417039">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -476,10 +494,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1585398671193" />
-    <state x="905" y="337" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591692011948">
+    <state x="905" y="337" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591692259538">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="905" y="337" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1591692011948" />
+    <state x="905" y="337" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1591692259538" />
     <state x="1088" y="119" width="704" height="867" key="find.popup" timestamp="1588704522553">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -488,10 +506,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="680" y="300" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1589575278850" />
-    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1591691817934">
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1591725805602">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1591691817934" />
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1591725805602" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

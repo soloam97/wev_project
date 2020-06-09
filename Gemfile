@@ -101,8 +101,13 @@ gem 'active_model_serializers'
 # A set of Rails responders to dry up your application
 gem 'responders', '~> 3.0'
 
-# Automatic Rails code style checking tool
-gem 'rubocop-rails', '~> 2.5', '>= 2.5.2'
+group :development do
+  # Automatic Rails code style checking tool
+  gem 'rubocop-rails', '~> 2.5', '>= 2.5.2'
+  # Code style checking for RSpec files. A plugin for the RuboCop
+  #   code style enforcing & linting tool.
+  gem 'rubocop-rspec', '~> 1.39'
+end
 
 # If you need to send some data to your js files and you don't want
 #   to do this with long way trough views and parsing - use this force!
@@ -111,10 +116,6 @@ gem 'gon', '~> 6.3', '>= 6.3.2'
 # This gem provides jQuery and the jQuery-ujs
 #   driver for your Rails 4+ application.
 gem 'jquery-rails', '~> 4.3.5'
-
-# Code style checking for RSpec files. A plugin for the RuboCop
-#   code style enforcing & linting tool.
-gem 'rubocop-rspec', '~> 1.39'
 
 group :production do
   gem 'rails_12factor'
