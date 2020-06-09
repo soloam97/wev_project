@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe5c3edc-1d7c-4370-9661-c1577e9f028e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_form.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-    </list>
+    <list default="true" id="fe5c3edc-1d7c-4370-9661-c1577e9f028e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -323,7 +317,7 @@
       <workItem from="1591119766778" duration="7500000" />
       <workItem from="1591614519259" duration="11734000" />
       <workItem from="1591634576856" duration="9026000" />
-      <workItem from="1591687131705" duration="1267000" />
+      <workItem from="1591687131705" duration="1512000" />
     </task>
     <task id="LOCAL-00001" summary="Third Commit: DB, page transitions">
       <created>1586800387413</created>
@@ -367,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591635713474</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="7 Commit: heroku">
+      <created>1591691972325</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591691972325</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,10 +408,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="876" y="385" width="940" height="695" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1588704829041" />
-    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2" timestamp="1591635713257">
+    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2" timestamp="1591691972067">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1591635713257" />
+    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1591691972067" />
     <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590000417039">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -475,10 +476,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1585398671193" />
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591635728082">
+    <state x="905" y="337" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591692011948">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1591635728082" />
+    <state x="905" y="337" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1591692011948" />
     <state x="1088" y="119" width="704" height="867" key="find.popup" timestamp="1588704522553">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

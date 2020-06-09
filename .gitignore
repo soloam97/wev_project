@@ -32,3 +32,6 @@
 
 # Ignore secrets.yml with passwords
 /config/secrets.yml
+
+# cc
+.idea/*
