@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe5c3edc-1d7c-4370-9661-c1577e9f028e" name="Default Changelist" comment="" />
+    <list default="true" id="fe5c3edc-1d7c-4370-9661-c1577e9f028e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_form.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -316,7 +322,8 @@
       <workItem from="1590650106526" duration="617000" />
       <workItem from="1591119766778" duration="7500000" />
       <workItem from="1591614519259" duration="11734000" />
-      <workItem from="1591634576856" duration="1696000" />
+      <workItem from="1591634576856" duration="9026000" />
+      <workItem from="1591687131705" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="Third Commit: DB, page transitions">
       <created>1586800387413</created>
@@ -376,10 +383,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="7 Commit: heroku" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="214" width="800" height="677" key="#Inspections" timestamp="1591627843782">
+    <state x="555" y="214" width="800" height="677" key="#Inspections" timestamp="1591641839337">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="214" width="800" height="677" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1591627843782" />
+    <state x="555" y="214" width="800" height="677" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1591641839337" />
     <state x="1035" y="198" width="800" height="882" key="#Intentions" timestamp="1588684916321">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -408,22 +415,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1590000417039" />
-    <state width="904" height="269" key="GridCell.Tab.0.bottom" timestamp="1591635015561">
+    <state width="904" height="269" key="GridCell.Tab.0.bottom" timestamp="1591648866174">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="904" height="269" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1591635015561" />
-    <state width="904" height="269" key="GridCell.Tab.0.center" timestamp="1591635015561">
+    <state width="904" height="269" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1591648866174" />
+    <state width="904" height="269" key="GridCell.Tab.0.center" timestamp="1591648866173">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="904" height="269" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1591635015561" />
-    <state width="904" height="269" key="GridCell.Tab.0.left" timestamp="1591635015561">
+    <state width="904" height="269" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1591648866173" />
+    <state width="904" height="269" key="GridCell.Tab.0.left" timestamp="1591648866173">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="904" height="269" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1591635015561" />
-    <state width="904" height="269" key="GridCell.Tab.0.right" timestamp="1591635015561">
+    <state width="904" height="269" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1591648866173" />
+    <state width="904" height="269" key="GridCell.Tab.0.right" timestamp="1591648866173">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="904" height="269" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1591635015561" />
+    <state width="904" height="269" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1591648866173" />
     <state width="1874" height="345" key="GridCell.Tab.1.bottom" timestamp="1588706232436">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -460,10 +467,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="710" y="226" width="490" height="652" key="RollbackChangesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587594450616" />
-    <state x="898" y="187" key="SettingsEditor" timestamp="1589540451895">
+    <state x="898" y="187" key="SettingsEditor" timestamp="1591691796067">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="898" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1589540451895" />
+    <state x="898" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1591691796067" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585398671193">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -480,10 +487,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="680" y="300" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1589575278850" />
-    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1590055457902">
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1591691817934">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1590055457902" />
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1591691817934" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
