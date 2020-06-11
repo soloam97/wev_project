@@ -26,14 +26,13 @@ en:
 
   shared:
     header:
-      logo_title: "Experteese in Ruby_on_Rails"
+      logo_title: "Modern ART"
       home: "Home"
       help: "Help"
       sign_in: "Sign in"
       sign_out: "Sign out"
       person: "Me"
       profile: "My page"
-      settings: "Settings"
     #      logged_msg: "Logged in as "
 
     footer:
@@ -117,3 +116,8 @@ en:
 
     contacts:
       contacts_title: "Contacts"
+
+    index:
+      title_welcome: 'Welcome to Modern ART'
+      start_rating: 'Start viewing and rating!'
+      sign_up: 'Sign up now!'

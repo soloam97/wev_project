@@ -67,8 +67,8 @@ class ValuesController < ApplicationController
     @value = Value.find(params[:id])
   end
 
-  # Only allow a list of trusted parameters through.
+  # Never trust parameters from the scary internet, only allow the white list through.
   def value_params
-    params.require(:value).permit(:user_id, :image_id, :value)
+    params.fetch(:value, {})
   end
 end

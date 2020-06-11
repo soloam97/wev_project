@@ -67,7 +67,7 @@ class ThemesController < ApplicationController
     @theme = Theme.find(params[:id])
   end
 
-  # Only allow a list of trusted parameters through.
+  # Never trust parameters from the scary internet, only allow the white list through.
   def theme_params
     params.require(:theme).permit(:name, :qty_items)
   end

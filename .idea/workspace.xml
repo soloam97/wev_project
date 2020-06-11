@@ -3,6 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="fe5c3edc-1d7c-4370-9661-c1577e9f028e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/api_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/api_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/work_image.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/concerns/work_image.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/images_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/images_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/main_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/themes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/themes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/values_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/values_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/work_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/work_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/work_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/work_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/image.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/image.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/theme.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/theme.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/value.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/value.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/user_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/user_serializer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main/about.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/about.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main/contacts.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/contacts.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main/help.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/help.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_footer.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_footer.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_header.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_header.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/work/_images.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/work/_images.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/work/choose_theme.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/work/choose_theme.js.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/work/display_theme.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/work/display_theme.js.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/work/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/work/index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +116,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="ruby.i18n.create.property.last_used_locale" value="English [en.yml]" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -325,7 +361,14 @@
       <workItem from="1591614519259" duration="11734000" />
       <workItem from="1591634576856" duration="9026000" />
       <workItem from="1591687131705" duration="2956000" />
-      <workItem from="1591724154364" duration="2987000" />
+      <workItem from="1591724154364" duration="6964000" />
+      <workItem from="1591781094475" duration="5292000" />
+      <workItem from="1591791145284" duration="16000" />
+      <workItem from="1591792865115" duration="16411000" />
+      <workItem from="1591815812706" duration="20000" />
+      <workItem from="1591816233458" duration="5975000" />
+      <workItem from="1591824528246" duration="992000" />
+      <workItem from="1591828318367" duration="8411000" />
     </task>
     <task id="LOCAL-00001" summary="Third Commit: DB, page transitions">
       <created>1586800387413</created>
@@ -397,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591727449812</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="8 Commit: heroku">
+      <created>1591727792447</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591727792447</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,14 +488,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="876" y="385" width="940" height="695" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1588704829041" />
-    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2" timestamp="1591727449623">
+    <state x="900" y="95" width="865" height="912" key="CommitChangelistDialog2" timestamp="1591727792193">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1002" y="96" width="865" height="912" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1591727449623" />
-    <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590000417039">
+    <state x="900" y="95" width="865" height="912" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1591727792193" />
+    <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591814319979">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1590000417039" />
+    <state x="1223" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1591814319979" />
     <state width="904" height="269" key="GridCell.Tab.0.bottom" timestamp="1591648866174">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -498,30 +548,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="710" y="226" width="490" height="652" key="RollbackChangesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587594450616" />
-    <state x="898" y="187" key="SettingsEditor" timestamp="1591691796067">
+    <state x="558" y="153" key="SettingsEditor" timestamp="1591799919991">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="898" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1591691796067" />
+    <state x="558" y="153" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1591799919991" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585398671193">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1585398671193" />
-    <state x="905" y="337" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591727457571">
+    <state x="905" y="337" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591727804152">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="905" y="337" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1591727457571" />
-    <state x="1088" y="119" width="704" height="867" key="find.popup" timestamp="1588704522553">
+    <state x="905" y="337" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1591727804152" />
+    <state x="1088" y="119" width="741" height="867" key="find.popup" timestamp="1591821796456">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1088" y="119" width="704" height="867" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588704522553" />
+    <state x="1088" y="119" width="741" height="867" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1591821796456" />
     <state x="680" y="300" width="672" height="677" key="run.anything.popup" timestamp="1589575278850">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="680" y="300" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1589575278850" />
-    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1591725805602">
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1591835188221">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1591725805602" />
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1591835188221" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,6 +583,14 @@
             <option name="block-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/test/controllers/main_controller_test.rb</url>
+          <line>13</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

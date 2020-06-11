@@ -4,9 +4,12 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    @users = User.all
+    # @users = User.all
+    # expires_in 5.minutes
+    # sleep 15e
+    @users = User.all_cached
+    # @stats = Rails.cache.stats.first.last
   end
-
   # GET /users/1
   # GET /users/1.json
   def show
@@ -26,13 +29,14 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     @user = User.new(user_params)
-
     respond_to do |format|
       if @user.save
         sign_in @user
+        flash.now[:notice] = "Welcome to the Experteese - sample App!"
         format.html { redirect_to @user, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
       else
+        flash.now[:alert] = "Bad registration"
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
@@ -55,7 +59,7 @@ class UsersController < ApplicationController
 
   # DELETE /users/1
   # DELETE /users/1.json
-  def destroyrills
+  def destroy
     @user.destroy
     respond_to do |format|
       format.html { redirect_to users_url, notice: 'User was successfully destroyed.' }

@@ -26,14 +26,13 @@ ru:
 
   shared:
     header:
-      logo_title: "Оценка современного искусства"
+      logo: "Оценка современного искусства"
       home: "Главная"
       help: "Помощь"
       sign_in: "Войти"
       sign_out: "Выйти"
       person: "Я"
       profile: "Моя страница"
-      settings: "Настройки"
     #      logged_msg: "Вошел как "
 
     footer:
@@ -117,3 +116,8 @@ ru:
 
     contacts:
       contacts_title: "Контакты"
+
+    index:
+      title_welcome: 'Добро пожаловать на страницу современного искусства'
+      start_rating: 'Приступайте к просмотру и оцениванию!'
+      sign_up: 'Необходима рагистрация!'

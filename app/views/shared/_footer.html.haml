@@ -1,6 +1,7 @@
-.navbar.fixed-bottom.footer
-  .container
-    %p Solovev Artem @ 2020
-    %p
-    = link_to 'Back to top'
-.gradient-bottom
+%footer.footer
+  %small
+    %h5 Solovev Artem @ 2020
+  %nav
+    %ul
+      %li= link_to t('.about'), main_about_path
+      %li= link_to t('.contact'), main_contacts_path
