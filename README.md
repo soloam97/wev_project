@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Проект по реализации back-and части сайта по просмотру картинной галереи
 
-Things you may want to cover:
+Возможности приложения:
 
-* Ruby version
+* Регистрация пользователей
 
-* System dependencies
+* Переход по страницам сайта для зарегистрированных пользователей
 
-* Configuration
+* Выбор авторов картин и фотографий
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Просмотр картин и фотографий
