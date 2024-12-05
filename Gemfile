@@ -62,7 +62,7 @@ gem 'jquery-ui-rails'
 gem 'rails-asset-jqueryui'
 
 # Use Bootstrap
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 
 # Icons fonts
 gem 'font-awesome-sass' # , '~> 4.6.2'
