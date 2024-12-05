@@ -111,7 +111,7 @@ end
 
 # If you need to send some data to your js files and you don't want
 #   to do this with long way trough views and parsing - use this force!
-gem 'gon', '~> 6.3', '>= 6.3.2'
+gem 'gon', '~> 6.4'
 
 # This gem provides jQuery and the jQuery-ujs
 #   driver for your Rails 4+ application.
